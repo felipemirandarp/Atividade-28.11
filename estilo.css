@@ -1,0 +1,48 @@
+.img-principal{
+    width: 100%;
+}
+.conteudo-texto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+}
+.titulo{
+    text-align: center;
+}
+.btn-saiba{
+    border-radius: 15px;
+    background-color: red;
+    align-self: center;
+    width: 200px;
+    color:wheat
+}
+
+@media (min-width: 768px){
+    .conteudo-img{
+        /* display: flex;
+        justify-content: center; */
+        height: auto;
+    }
+
+    .img-principal{
+        width: 400px;
+        padding: 30px;
+        margin: 20px;
+    }
+
+    .conteudo{
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+        justify-content: center;
+        gap: 10px
+    }
+    .titulo{
+        text-align: left;
+    }
+
+
+
+}
+
